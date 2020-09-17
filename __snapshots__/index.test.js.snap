@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test Prisma client and PgBouncer should fail with docker pgbouncer without the pgbouncer query string param 1`] = `
+"Error: 
+[31mInvalid [1m\`prisma.user.findMany()\`[22m invocation:[39m
+
+
+  Error in connector: Error querying the database: db error: ERROR: database \\"blog\\" does not exist"
+`;
